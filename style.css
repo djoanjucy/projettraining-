@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display :flex;  
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+body{
+    background: rgb(27,27,27);
+}
+
+.card{
+    background: white;
+    width:270px;
+    height:400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 50p;
+}
+
+.car-1{
+    background-image: url("/Users/mac/Desktop/projettraining/pexels-lloyd-freeman-1381816.jpg");
+}
+.car-2{
+    background-image: url(/Users/mac/Desktop/projettraining/pexels-pixabay-164654.jpg);
+}
+.car-3{
+    background-image: url(/Users/mac/Desktop/projettraining/pexels-lloyd-freeman-1385585.jpg);
+}
+p{
+    font-size: medium;
+    font-weight: lighter;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62, 62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
